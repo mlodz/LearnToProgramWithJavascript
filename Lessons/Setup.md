@@ -18,6 +18,7 @@ async function main() {
 
 };
 ```
+You may notice some of the text is colored. Don't worry if the colors don't match what you see here.
 
 #### View the Output
 
