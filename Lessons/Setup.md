@@ -14,12 +14,13 @@ It should look like this:
 ```javascript
 async function main() {
 
-    write("Welcome");
-
 };
 ```
 You may notice some of the text is colored. Don't worry if the colors don't match what you see here.
 
 #### View the Output
 
-In your web browser, open the file `LearnToProgramWithJavascript/index.html`. You should see a grey screen with a white page that says "Welcome".
+In your web browser, open the file `LearnToProgramWithJavascript/index.html`. You should see a grey screen with an empty white page.
+
+Next Lesson: [Setup](Lesson 01.md)
+
