@@ -1,4 +1,4 @@
-## Lesson 3: Variables and Names
+# Lesson 3: Variables and Names
 
 Now you can write things with `write` and you can do math. The next step is to learn about variables. In programming a variable is nothing more than a name for something. Programmers use these variable names to make their code read more like English, and because they have lousy memories. If they didn't use good names for things in their software, they'd get lost when they tried to read their code again.
 
