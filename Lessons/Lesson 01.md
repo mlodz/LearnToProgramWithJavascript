@@ -13,6 +13,7 @@ Go ahead and write the following line `write("Hello World")`. Your file should l
 ```javascript
 async function main() {
 
+      // Display a message
       write("Hello World");
 
 };
@@ -22,6 +23,11 @@ Go to your web browser and hit refresh. Do you see the words `Hello World` on th
 
 Try adding another line underneath the previous: `write("I love writing code!")` and then refresh the page. You should see `I love writing code!` on the page now.
 
-Now add this line: `// write("This is getting too easy.")` and refresh the page. What do you see? If you did it correctly, you will NOT see the words `This is getting easy`. The reason is, `//` is how you write comments in your code. Comments are crucial to writing good code; they allow you to describe what the code does, so others can understand when they read your code. Anything in a comment is ignored by the computer. 
+OK, so you can see that `write("Hello World")` will display "Hello World" on the page. In fact, you can get any message to display on the page using `write`. Pretty cool, right? But what about the line `//Display a message` -- what does that do? That is what we call a "comment". A comment is a line of code that is not compiled by the computer. We use it to explain what the rest of our code does, so when another programmer looks at the code, they can understand it. Comments are not very exciting, but they are an important part of programming.
+
+## Study Drills
+1. Try this; add the line `// write("I Love Jello")`. What do you think will happen? Refresh the page and see. What do you see? Can you explain why?
+ 
 
 [Next Lesson](Lesson 02.md)
+

@@ -1,41 +1,44 @@
-# Lesson 3: Variables and Names
+# Lesson 3: Variables
 
 Now you can write things with `write` and you can do math. The next step is to learn about variables. In programming a variable is nothing more than a name for something. Programmers use these variable names to make their code read more like English, and because they have lousy memories. If they didn't use good names for things in their software, they'd get lost when they tried to read their code again.
 
 Type all of the following code. DO NOT COPY AND PASTE, it is important to learn to type code. Practive makes perfect.
 
+
 ```javascript
 async function main() {
       
-      var name = 'Newton';
-      var age = 2;
+      // Initialize a variable
+      var apples;
 
-      write("Who is your favorite dog?")
-      write(name)
-      write("How old is the dog?")
-      write(age)
-      
-      // I earn 7 dollars an hour
-      var wage = 8
-      // Money earned after working 6 hours
-      var moneyEarned = wage * 8;
+      // You have 5 apples
+      apples = 5
+      write(apples)
 
-      // Legend of Zelda game costs $60
-      var priceOfZelda = 60
-
-      write('Can I afford to buy Legend of Zelda?');
-      write(moneyEarned >= priceOfZelda);
-
-      // Money earned after working another 6 hours
-      moneyEarned = moneyEarned + wage * 6;
-
-      write('Now can I afford to buy Legend of Zelda?')
-      write(moneyEarned >= priceOfZelda)
-
-      write('How many hours did I need to work?')
-      write(priceOfZelda / wage)
+      // You eat 2 apples
+      apples = apples - 2
+      write(apples)
 
 }
+```
+
+When you use a variable, you should initialize it. Do this with the `var` keyword. If you haven't figured it out, "var" stands for "variable". Once you have a variable, you can assign a value to it. Here, we assign the value `5` to the variable `apples`. Then, we assign the value `apples - 2` to apples (which is 3).
+
+Type the code below. Can you predict what this code will write?
+
+```
+      var dog; // initialize a variable
+      dog = "Newton" // assign a value to the variable
+      write(dog + " is a good dog!")
+
+      // you can also initialize and assign a variable at the same time
+      var money = 20
+      money = money * 2
+      money = money + 50
+      money = money * 3
+      write("I wish I had this much money")
+      write("$" + money)
+
 ```
 
 ## Notes
@@ -49,15 +52,15 @@ async function main() {
 
 ## Study Drills
 1. Write a comment above each line, explaining what it does.
-2. Jack has 12 apples. Jack eats one apple a day. Jack has a sister, who eats 2 apples a day. After 3 days, how many apples remain? Use variables to keep track of these numbers. I recommend using `apple`, `applesEatenPerDay`, and `days`. 
-3. There's also one more type of string I haven't mentioned. Try the following:
+2. Jack has 12 apples. Jack eats one apple a day. Jack has a sister, who eats 2 apples a day. After 3 days, how many apples remain? Use variables to keep track of these numbers.
+3. There's another type of string you can use. There's a character called a backtick; look at your keyboard, it is to the left of `1` and above `tab`. Notice how we use backticks in the example below.
 ```javascript
-    var minutesPerHour = 60;
-    var hoursPerDay = 24;
-    var minutesPerDay = hoursPerDay * minutesPerHour;
-    write(`There are ${minutesPerDay} minutes in a day!`);
+    var person = "Daylon";
+    var adjective = "cool";
+    write(`I think ${person} is ${adjective}`);
 ```
-  - Using strings with ` allow you to include variables.
+  - Using strings with backticks allow you to insert variable values.
   - If you try with double quotes or single quotes, what happens?
+4. Write a Mad-Libs story using variables and backtick strings. Use names, places, actions, and adjectives to make the story descriptive. Ask a friend or family member to help you assign the variables.
 
 [Next Lesson](Lesson 04.md)

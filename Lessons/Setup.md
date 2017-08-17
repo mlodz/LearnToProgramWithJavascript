@@ -22,5 +22,5 @@ You may notice some of the text is colored. Don't worry if the colors don't matc
 
 In your web browser, open the file `LearnToProgramWithJavascript/index.html`. You should see a grey screen with an empty white page.
 
-Next Lesson: [Setup](Lesson 01.md)
+[Next Lesson](Lesson 01.md)
 

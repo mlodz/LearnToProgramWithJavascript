@@ -2,20 +2,28 @@ window.container = document.getElementById("output");
 
 // Write a message
 var write = function(msg, color) {
-    //var c = window.current_text_color;
     if (!color) {
 	color = 'black';
     }
-    window.container.innerHTML += "<p class='line' style='color:"+color+"'>" + msg + "</p >";
-    console.log(window.container);
+    var output = msg;
+    if (typeof msg !== 'string' && typeof msg !== 'function') {
+	output = JSON.stringify(msg)
+    }
+    window.container.innerHTML += "<p class='line' style='color:"+color+"'>" + output + "</p >";
     scrollOutputToBottom();
 }
 
 // Set the page title
-var pageTitle = function(title) {
+var pageTitle = function(title, color) {
+    if (color) {
+	$('h1.title').css({'color': color});
+    }
     $('#page-title').html(title);
     $('h1.title').html(title);
     document.title = title;
+}
+var pageColor = function(color) {
+    $('body').css({'background-color': color});
 }
 
 // Show a message and wait for input, return the input value
@@ -95,6 +103,7 @@ var scrollOutputToBottom = function () {
 
 window.write = write;
 window.pageTitle = pageTitle;
+window.pageColor = pageColor;
 window.ask = ask;
 window.pause = pause;
 window.random = random;

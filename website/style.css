@@ -18,10 +18,13 @@ h1.title {
     font-family: monospace;
     height: 80vh;
     padding: 1em;
-    width: 60vw;
     overflow-y: scroll;
     position: relative;
     text-align: left;
+    width: 60vw;
+}
+body.canvas #output {
+    width: 35vw;
 }
 #output p {
     font-size: 1.4em;
@@ -39,7 +42,7 @@ h1.title {
     display: none;
     background-color: #fff;
     vertical-align: top;
-    width: 25vw;
+    /* width: 50vw; */
 }
 #output,
 #canvas {

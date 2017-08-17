@@ -11,16 +11,14 @@ This exercise has lots of math symbols. Let's name them right away so you know w
 - `>` greater-than
 - `<=` less-than-equal
 - `>=` greater-than-equal
+- `==` equal to
 
-Type all of the following code. DO NOT COPY AND PASTE, it is important to learn to type code. Practive makes perfect.
+Type all of the following code. DO NOT COPY AND PASTE, it is important to learn to type code. Practice makes perfect.
+
+Before you run the code, can you predict what will appear on the screen?
 
 ```javascript
 async function main() {
-
-      write("How many states are in USA?");
-      write(50);
-      write("How many states are there, if you don't count Alaska and Hawaii?")
-      write(50 - 2)
 
       write("What is 5 plus 3?")
       write(5 + 3);
@@ -29,42 +27,33 @@ async function main() {
       write(12 * 2);
       
       write("Wow, and what is 9812 divided by 2?")
-      write(9812 / 2)
+      write(98127 / 2)
 
-      write("Is it true that 3 + 2 is less than 5 - 7?")
-      write(3 + 2 < 5 - 7)
+}
+```
 
-      write("What is 3 + 2?")
-      write(3 + 2)
-      write("What is 5 - 7?")
-      write(5 - 7)
-      write("Oh, that's why it's false")
+Try some more examples.
 
-      
-      write("Hmm, is 5 greater than or equal to 7?")
-      write(5 > 7)
-      
-      write("What does % do?")
-      write("Let's try 17 % 10")
-      write(17 % 10)
+```
+      write("Is it true that 5 is less than 10?")
+      write(5 < 10)
 
-};
+      write("Is 8 less than 3?")
+      write(8 < 3)
+
+      write("Is it true that  is 7 is equal to 4 + 3?")
+      write(7 == 4 + 3)
+
 ```
 
 ## Study Drills
 1. Above each line, use `//` to write a comment to yourself explaining what the line does.
-2. You've tried `>`, but have you tried `>=`? Can you explain how they are different? If you don't know, try writing some examples. 
-3. What does `%` do? It's not obvious, so try write some more examples.
-4. Take a guess at what each of these will show, then try them out. How many can you guess correctly?
-  - `write(1 + 2 * 3)`
-  - `write(2 * 4 + 3)`
-  - `write(10 - 4 + 2`
-  - `write(100 / 2 + 8)`
-  - `write(3 + 2 * 5 + 1)`
-  - `write(3 + (2 * 5) + 1)`
-  - `write((3 + 2) * (5 + 1))`
-5. `==` is the equality operator. Try some examples, then explain what it does.
-6. Have you been typing everything like I asked? Remember, you cannot get faster at typing unless you Practice Practice Practice!
+2. You've tried `>`, but have you tried `>=`? Can you explain how they are different? If you don't know, try some examples. 
+3. Try these two examples. Can you predict the result? Can you explain why it displays what it does?
+  - `write(4 + 3 * 2)`
+  - `write((4 + 3) * 2)`
+4. Have you been typing everything like I asked? Remember, you cannot get faster at typing unless you Practice Practice Practice!
+5. What does `%` do? It's not obvious, so try some more examples.
 
 ## Notes
 1. Sometimes you'll see semicolons at the end of a line, like this `write(10);`. But other times you won't, like this: `write(10)`. Why the difference? In the early days of Javascript, the compiler required semicolons at the end of each line to figure out the coder's intention. But nowadays, our compilers are advanced enough that we no longer need semicolons at the end of lines. You may use them or not, it is your choice.
