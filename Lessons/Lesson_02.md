@@ -54,6 +54,21 @@ Try some more examples.
   - `write((4 + 3) * 2)`
 4. Have you been typing everything like I asked? Remember, you cannot get faster at typing unless you Practice Practice Practice!
 5. What does `%` do? It's not obvious, so try some more examples.
+6. Write the following line of code. Notice that this code is BROKEN (It is missing a `"`). We are intentionally writing broken code so you can see what happens when there is an error.
+```
+    write("Hello)
+```
+Refresh the page, and you should see a blank page. Open the Javascript Developer Console in Chrome by going to `View > Developer > Javascript Console`.
+
+![alt text](images/open_dev_tools.png "")
+
+You should see a panel open at the bottom of the browser, with red text saying `Uncaught Syntax Error`. A syntax error is just a fancy way of saying "you typed something wrong". You should also see, to the right right, something like `project.js:2`. That's the file that contains the error, and the line number. To fix the error, go to project.js, find the line number specified in the error statement, and add a quote (`"`) in the approprate spot. Refresh the page, and the error should be fixed. 
+
+![alt text](images/dev_tool_lineno.png "")
+
+When there is something wrong with your code, but you don't know what, it is called a "bug", and the process of finding and fixing it is called "debugging". Everybody makes mistakes (especially programmers!) and so debugging is an essential skill to learn. From now on, if your code does not work, you should open the Javascript Console and find the error.
+
+Try `write("Another Bug"` and refresh the page. Open the Javascript Console to find the bug, and then fix it. Do you get the same error message as before, or a different one?
 
 ## Notes
 1. Sometimes you'll see semicolons at the end of a line, like this `write(10);`. But other times you won't, like this: `write(10)`. Why the difference? In the early days of Javascript, the compiler required semicolons at the end of each line to figure out the coder's intention. But nowadays, our compilers are advanced enough that we no longer need semicolons at the end of lines. You may use them or not, it is your choice.
