@@ -105,4 +105,4 @@ Here's another example. Modify the code so there is a condition for Jasmine and 
     write(`${name}'s birthday is ${birthday}.`)
 ```
 
-[Next Lesson](Lesson 05.md)
+[Next Lesson](Lesson_05.md)

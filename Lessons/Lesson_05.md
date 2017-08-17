@@ -44,4 +44,4 @@ async function main() {
 }
 ```
 
-[Next Lesson](Lesson 06.md)
+[Next Lesson](Lesson_06.md)

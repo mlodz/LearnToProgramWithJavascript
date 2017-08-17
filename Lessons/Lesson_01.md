@@ -29,5 +29,5 @@ OK, so you can see that `write("Hello World")` will display "Hello World" on the
 1. Try this; add the line `// write("I Love Jello")`. What do you think will happen? Refresh the page and see. What do you see? Can you explain why?
  
 
-[Next Lesson](Lesson 02.md)
+[Next Lesson](Lesson_02.md)
 

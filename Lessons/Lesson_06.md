@@ -96,3 +96,5 @@ But don't give up as quickly as I did. Ask for at least 10 words, and make the s
 ## Assignment - Make your own progam!
 
 Using what you know, come up with your own idea for a program, and build it!
+
+[Next Lesson](Lesson_07.md)
