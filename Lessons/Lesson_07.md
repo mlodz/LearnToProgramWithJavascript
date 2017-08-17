@@ -18,3 +18,6 @@ You can set the background color of the page like this: `pageColor("skyblue")`
 And you can set the page title and color, like this: `pageTitle("Daylon's Cool Program", "ROYALBLUE")`
 
 
+### Documentation
+
+You've learned a lot of new things, so here's a page to summarize what we've done: [Documenation](Documentation_01.md)
