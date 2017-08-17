@@ -1,4 +1,4 @@
-# Lesson 06 - Practice!
+# Lesson 6 - Practice!
 
 ## Colors
 

@@ -58,5 +58,5 @@ Try some more examples.
 ## Notes
 1. Sometimes you'll see semicolons at the end of a line, like this `write(10);`. But other times you won't, like this: `write(10)`. Why the difference? In the early days of Javascript, the compiler required semicolons at the end of each line to figure out the coder's intention. But nowadays, our compilers are advanced enough that we no longer need semicolons at the end of lines. You may use them or not, it is your choice.
 
-[Next Lesson](Lesson_02.md)
+[Next Lesson](Lesson_03.md)
 
