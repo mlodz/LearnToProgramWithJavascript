@@ -64,3 +64,5 @@ Type the code below. Can you predict what this code will write?
 4. Write a Mad-Libs story using variables and backtick strings. Use names, places, actions, and adjectives to make the story descriptive. Ask a friend or family member to help you assign the variables.
 
 [Next Lesson](Lesson_04.md)
+
+[Table of Contents](ToC.md)

@@ -45,3 +45,5 @@ async function main() {
 ```
 
 [Next Lesson](Lesson_06.md)
+
+[Table of Contents](ToC.md)

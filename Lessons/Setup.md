@@ -24,3 +24,5 @@ In your web browser, open the file `LearnToProgramWithJavascript/index.html`. Yo
 
 [Next Lesson](Lesson_01.md)
 
+
+[Table of Contents](ToC.md)

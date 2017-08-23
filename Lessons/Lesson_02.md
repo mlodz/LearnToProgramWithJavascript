@@ -75,3 +75,5 @@ Try `write("Another Bug"` and refresh the page. Open the Javascript Console to f
 
 [Next Lesson](Lesson_03.md)
 
+
+[Table of Contents](ToC.md)

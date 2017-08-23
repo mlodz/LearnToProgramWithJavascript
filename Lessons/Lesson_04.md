@@ -106,3 +106,5 @@ Here's another example. Modify the code so there is a condition for Jasmine and 
 ```
 
 [Next Lesson](Lesson_05.md)
+
+[Table of Contents](ToC.md)

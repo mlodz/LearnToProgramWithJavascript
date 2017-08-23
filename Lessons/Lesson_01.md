@@ -31,3 +31,5 @@ OK, so you can see that `write("Hello World")` will display "Hello World" on the
 
 [Next Lesson](Lesson_02.md)
 
+
+[Table of Contents](ToC.md)
